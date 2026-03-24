@@ -148,7 +148,7 @@
         };
 
         PS5_toggle {
-            bindings = <&tog 9>;
+            bindings = <&tog 0>;
             key-positions = <5 41>;
         };
     };
@@ -373,38 +373,6 @@
 &kp LEFT_SHIFT    &kp EN_O         &kp EN_I         &kp EN_E         &kp EN_N          &kp EN_M                                                &kp EN_M               &kp EN_N                 &kp EN_E      &kp EN_I              &kp EN_O     &kp EN_SINGLE_QUOTE
 &kp LEFT_ALT      &kp FSLH         &kp DOT          &kp COMMA        &kp EN_H          &kp EN_K       &kp C_MUTE    &tog 1                     &kp EN_K               &kp EN_H                 &kp EN_COMMA  &kp EN_DOT            &kp EN_FSLH  &kp RIGHT_ALT
                                    &tog 8           &kp RIGHT_ALT    &kp LEFT_CONTROL  &kp SPACE      &kp ENTER     &mt RIGHT_SHIFT BACKSPACE  &lt 8 ENTER            &mt RIGHT_CONTROL MINUS  &kp LEFT_GUI  &kp LS(LEFT_CONTROL)
-            >;
-
-            sensor-bindings =
-                <&inc_dec_kp PAGE_UP PAGE_DOWN>,
-                <&scroll_up_down>,
-                <&inc_dec_kp PG_UP PG_DN>;
-        };
-
-        ps5_1 {
-            display-name = "PS5 1";
-            bindings = <
-&kp ESC         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5                                           &mt C_POWER C_AL_LOCK  &kp C_PREVIOUS           &kp C_PP      &kp C_NEXT            &kp MINUS    &kp EQUAL
-&kp TAB         &kp EN_Q      &kp EN_W      &kp UP        &kp EN_P          &kp EN_B                                               &kp EN_J               &kp EN_L                 &kp EN_U      &kp EN_Y              &kp EN_SEMI  &kp EN_BSLH
-&kp LEFT_SHIFT  &kp EN_A      &kp LEFT      &kp DOWN      &kp RIGHT_ARROW   &kp G                                                  &kp EN_M               &kp EN_N                 &kp EN_E      &kp EN_I              &kp EN_O     &kp EN_SINGLE_QUOTE
-&kp LEFT_ALT    &kp EN_Z      &kp EN_X      &kp EN_C      &kp EN_D          &kp EN_V      &kp C_MUTE    &tog 1                     &kp EN_K               &kp EN_H                 &kp EN_COMMA  &kp EN_DOT            &kp EN_FSLH  &kp RIGHT_ALT
-                              &kp EN_Y      &mo 10        &kp LEFT_CONTROL  &kp SPACE     &kp ENTER     &mt RIGHT_SHIFT BACKSPACE  &lt 4 ENTER            &mt RIGHT_CONTROL MINUS  &kp LEFT_GUI  &kp LS(LEFT_CONTROL)
-            >;
-
-            sensor-bindings =
-                <&inc_dec_kp PAGE_UP PAGE_DOWN>,
-                <&scroll_up_down>,
-                <&inc_dec_kp PG_UP PG_DN>;
-        };
-
-        ps5_2 {
-            display-name = "PS5 2";
-            bindings = <
-&kp ESC         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0                                           &mt C_POWER C_AL_LOCK  &kp C_PREVIOUS           &kp C_PP      &kp C_NEXT            &kp MINUS    &kp EQUAL
-&kp TAB         &kp F1        &kp F2        &kp F3        &kp F4            &kp F5                                                 &kp EN_J               &kp EN_L                 &kp EN_U      &kp EN_Y              &kp EN_SEMI  &kp EN_BSLH
-&kp LEFT_SHIFT  &kp F6        &kp F7        &kp F8        &kp F9            &kp F10                                                &kp EN_M               &kp EN_N                 &kp EN_E      &kp EN_I              &kp EN_O     &kp EN_SINGLE_QUOTE
-&kp LEFT_ALT    &kp F11       &kp F12       &kp F13       &kp F14           &kp F15       &kp C_MUTE    &tog 1                     &kp EN_K               &kp EN_H                 &kp EN_COMMA  &kp EN_DOT            &kp EN_FSLH  &kp RIGHT_ALT
-                              &kp HOME      &trans        &kp LEFT_CONTROL  &kp SPACE     &kp ENTER     &mt RIGHT_SHIFT BACKSPACE  &lt 4 ENTER            &mt RIGHT_CONTROL MINUS  &kp LEFT_GUI  &kp LS(LEFT_CONTROL)
             >;
 
             sensor-bindings =
