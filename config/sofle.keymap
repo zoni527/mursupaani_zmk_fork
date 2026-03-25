@@ -238,11 +238,11 @@
         rotary_arrows {
             display-name = "Rot arr";
             bindings = <
-&trans        &trans  &trans                &trans        &trans                       &trans                                                        &trans       &trans                   &trans        &trans                &trans       &trans
-&kp TAB       &trans  &trans                &trans        &trans                       &trans                                                        &trans       &trans                   &trans        &trans                &kp EN_SEMI  &kp EN_BSLH
-&caps_word    &trans  &trans                &trans        &trans                       &trans                                                        &trans       &trans                   &trans        &trans                &kp EN_O     &kp EN_SINGLE_QUOTE
-&kp LEFT_ALT  &trans  &trans                &trans        &trans                       &trans       &kp C_MUTE            &tog 1                     &trans       &trans                   &kp EN_COMMA  &kp EN_DOT            &kp EN_FSLH  &kp RIGHT_ALT
-                      &kp LS(LEFT_CONTROL)  &kp LEFT_GUI  &mt LEFT_CONTROL UNDERSCORE  &lt 4 SPACE  &mt LEFT_SHIFT ESC    &mt RIGHT_SHIFT BACKSPACE  &lt 3 ENTER  &mt RIGHT_CONTROL MINUS  &kp LEFT_GUI  &kp LS(LEFT_CONTROL)
+&trans        &trans  &trans                &trans        &trans                       &trans                                       &trans       &trans                   &trans        &trans                &trans       &trans
+&kp TAB       &trans  &trans                &trans        &trans                       &trans                                       &trans       &trans                   &trans        &trans                &kp EN_SEMI  &kp EN_BSLH
+&caps_word    &trans  &trans                &trans        &trans                       &trans                                       &trans       &trans                   &trans        &trans                &kp EN_O     &kp EN_SINGLE_QUOTE
+&kp LEFT_ALT  &trans  &trans                &trans        &trans                       &trans  &trans    &tog 1                     &trans       &trans                   &kp EN_COMMA  &kp EN_DOT            &kp EN_FSLH  &kp RIGHT_ALT
+                      &kp LS(LEFT_CONTROL)  &kp LEFT_GUI  &mt LEFT_CONTROL UNDERSCORE  &trans  &trans    &mt RIGHT_SHIFT BACKSPACE  &lt 3 ENTER  &mt RIGHT_CONTROL MINUS  &kp LEFT_GUI  &kp LS(LEFT_CONTROL)
             >;
 
             sensor-bindings =
@@ -278,11 +278,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &trans     &trans        &trans        &trans              &trans                           &trans  &trans    &trans     &trans      &trans     &trans
-&trans  &trans     &trans        &trans        &trans              &trans                           &trans  &kp N0    &kp CARET  &kp DOLLAR  &kp SEMI   &kp NUBS
-&trans  &kp LS(G)  &kp LC(EN_D)  &kp LC(EN_U)  &hive_below_header  &vim_file_top                    &trans  &kp LEFT  &kp DOWN   &kp UP      &kp RIGHT  &kp EN_SQT
-&trans  &trans     &trans        &trans        &trans              &trans         &trans    &trans  &trans  &trans    &kp COMMA  &kp DOT     &trans     &trans
-                   &trans        &trans        &trans              &trans         &trans    &trans  &trans  &trans    &trans     &trans
+&trans  &trans     &trans        &trans        &trans              &trans                           &trans    &trans    &trans     &trans      &trans  &trans
+&trans  &trans     &trans        &trans        &trans              &trans                           &trans    &kp N0    &kp CARET  &kp DOLLAR  &trans  &trans
+&trans  &kp LS(G)  &kp LC(EN_D)  &kp LC(EN_U)  &hive_below_header  &vim_file_top                    &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT   &trans  &trans
+&trans  &trans     &trans        &trans        &trans              &trans         &trans    &trans  &trans    &trans    &trans     &trans      &trans  &trans
+                   &trans        &trans        &trans              &trans         &trans    &trans  &trans    &trans    &trans     &trans
             >;
 
             sensor-bindings =
